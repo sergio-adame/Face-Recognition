@@ -1,4 +1,6 @@
 # Face-Recognition
+  *Para probar esta app pueden acceder desde github pages en este repositorio, pero para mas estabilidad se recomienda visitar su versión desplegada en heroku con el siguiente link: https://reconocimiento-fac.herokuapp.com/*
+
 App de reconocimiento facial. Esta parte corresponde al front end creado en react con codigo claro, mantenible y responsivo.
 Adicionalmente para descargar la parte backend (API) pueden ingresar al siguiente link: https://github.com/sergio-adame/Face-Recognition-Backend donde encontrarán el server creado en express el cual utiliza una base de datos creada en postgresSQL para almacenar usuarios de manera segura.
 
