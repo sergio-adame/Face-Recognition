@@ -29,7 +29,16 @@ const initialState = {
       joined: ""
     }
 }
+
+const particlesInit = (main) => {
+};
+
+const particlesLoaded = (container) => {
+};
+
 class App extends React.Component {
+
+
 
   constructor() {
     super();
@@ -102,12 +111,15 @@ class App extends React.Component {
     this.setState({route: route});
   }
 
+
+
   render () {
   return (
     <div className="App">
       <Particles 
-      className='particles'
       id="tsparticles"
+      init={particlesInit}
+      loaded={particlesLoaded}
       options={options}
     />
       <Navigation isSignedIn={this.state.isSignedIn} onRouteChange={this.onRouteChange} />
